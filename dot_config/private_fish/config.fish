@@ -3,4 +3,5 @@ if status is-interactive
     starship init fish | source
     alias lg lazygit
     alias ls 'eza --icons --group-directories-first'
+    abbr -a cm chezmoi
 end
