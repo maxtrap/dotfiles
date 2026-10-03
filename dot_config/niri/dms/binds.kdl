@@ -12,7 +12,7 @@ binds {
     Alt+Space hotkey-overlay-title="Spotlight Bar" {
         spawn "dms" "ipc" "call" "spotlight-bar" "toggle";
     }
-    Mod+V hotkey-overlay-title="Clipboard Manager" {
+    Mod+Shift+Y hotkey-overlay-title="Clipboard Manager" {
         spawn "dms" "ipc" "call" "clipboard" "toggle";
     }
     Mod+M hotkey-overlay-title="Task Manager" {
@@ -82,8 +82,8 @@ binds {
     Mod+X repeat=false { close-window; }
     Mod+F { maximize-column; }
     Mod+Shift+F { fullscreen-window; }
-    Mod+Shift+T { toggle-window-floating; }
-    Mod+Shift+V { switch-focus-between-floating-and-tiling; }
+    Mod+Shift+V { toggle-window-floating; }
+    Mod+V { switch-focus-between-floating-and-tiling; }
     Mod+W { toggle-column-tabbed-display; }
     Mod+Shift+W hotkey-overlay-title="Create window rule" { spawn "dms" "ipc" "call" "window-rules" "toggle"; }
 
