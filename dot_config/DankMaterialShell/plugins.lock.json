@@ -1,0 +1,24 @@
+{
+  "lockfileVersion": 1,
+  "plugins": {
+    "activateLinux": {
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "path": "activateLinux",
+      "commit": "6783b9727535cefccae2a668e74e1d33cee7221d"
+    },
+    "calculator": {
+      "repo": "https://github.com/rochacbruno/DankCalculator",
+      "commit": "c9fbbe921e9afeb92f4e92390e9fc05f006f0373"
+    },
+    "dankKDEConnect": {
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "path": "DankKDEConnect",
+      "commit": "e774a9756f2a50499c37a5513f28bee4ebe81d73"
+    },
+    "dankPomodoroTimer": {
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "path": "DankPomodoroTimer",
+      "commit": "e774a9756f2a50499c37a5513f28bee4ebe81d73"
+    }
+  }
+}

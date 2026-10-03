@@ -1,0 +1,20 @@
+{
+  "quickCapture": {
+    "enabled": true,
+    "ipcCommandsExpanded": true
+  },
+  "calculator": {
+    "enabled": true,
+    "trigger": "="
+  },
+  "dankKDEConnect": {
+    "enabled": true,
+    "selectedDeviceId": "2dd8920dea424e5c96211ffc6b1213d8"
+  },
+  "activateLinux": {
+    "enabled": true
+  },
+  "dankPomodoroTimer": {
+    "enabled": true
+  }
+}
