@@ -15,6 +15,9 @@
     "enabled": true
   },
   "dankPomodoroTimer": {
-    "enabled": true
+    "enabled": true,
+    "autoSetDND": false,
+    "autoStartBreaks": true,
+    "autoStartPomodoros": true
   }
 }
