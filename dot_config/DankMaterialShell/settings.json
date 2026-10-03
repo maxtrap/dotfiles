@@ -54,11 +54,11 @@
       "rightWidgets": [
         "systemTray",
         {
-          "id": "dankKDEConnect",
+          "id": "dankPomodoroTimer",
           "enabled": true
         },
         {
-          "id": "dankPomodoroTimer",
+          "id": "dankKDEConnect",
           "enabled": true
         },
         "cpuUsage",
