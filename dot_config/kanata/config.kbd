@@ -1,0 +1,69 @@
+(defcfg
+  ;; Place your OS specific configurations here, see: https://github.com/jtroo/kanata
+	process-unmapped-keys no
+)
+;; The config below uses ANSI, if you are on ISO you will have to modify it.
+(defsrc
+  esc
+  grv       1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  tab       q    w    e    r    t    y    u    i    o    p    [    ]    \
+  caps      a    s    d    f    g    h    j    k    l    ;    '         ret
+  lsft      z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc                 ralt rmet rctl
+)
+
+;; Gallium Rowstag
+(deflayer maya
+  esc
+  @grl       1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  @sym      b    l    d    g    q    j    f    o    u    ,    [    ]    \
+  @ext      n    r    t    s    v    k    h    a    e    i    ;         ret
+  lsft      x    m    c    w    z    p    y    '    /    .    rsft
+  lctl lmet lalt           spc                 ralt rmet rctl
+)
+
+(deflayer qwerty
+  esc
+  @grl       1    2    3    4    5    6    7    8    9    0    -    =    bspc
+  @sym      q    w    e    r    t    y    u    i    o    p    [    ]    \
+  @ext      a    s    d    f    g    h    j    k    l    ;    '         ret
+  lsft      z    x    c    v    b    n    m    ,    .    /    rsft
+  lctl lmet lalt           spc                 ralt rmet rctl
+)
+
+(defalias
+  ;; tap: backtick (grave), hold: toggle layer-switching layer while held
+  grl (tap-hold 200 200 grv (layer-toggle layers))
+  gal (layer-switch maya)
+  qwr (layer-switch qwerty)
+  ;; tap: Escape, hold: Extend layer
+  ext (tap-hold-press 200 200 esc (layer-toggle extend))
+  sym (tap-hold-press 200 200 tab (layer-toggle symbols))
+)
+
+(deflayer layers
+  _
+  _    @qwr @gal _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _    _    _    _    _    _    _    _    _    _
+  _    _    _              _              _    _    _
+)
+
+(deflayer extend
+  caps
+  esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  del
+  tab  esc  _    bck  fwd  XX   pgup home end  bspc del  prnt slck brk
+  _    lalt _    lsft lctl lmet pgdn left down up   rght ins       ret
+  lsft C-z  C-x  C-c  C-v  z    k    p    '    /    menu      rsft
+  lctl lmet lalt           ret            ralt rmet rctl
+)
+
+(deflayer symbols
+  _
+  _    _    _    _    _    _    _    _    _    _    _    _    _    _
+  _    `    S-,  S-.  -    S-\  del  S-9  S-0  ;    S-'  _    _    _
+  _    S-1  S-8  /    =    S-7  S-3  S-6  S-[  S-]  S-4  _    _
+  _    S-`  S-=  [    ]    S-5  S-2  S-;  ,    .    '    _
+  _    _    _              _              _    _    _
+)
