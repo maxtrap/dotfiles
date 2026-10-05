@@ -6,6 +6,7 @@
   "clockFormat": "24h",
   "showSeconds": true,
   "useFahrenheit": true,
+  "blurEnabled": true,
   "foregroundLayerTransparency": 0.9,
   "controlCenterShowMicPercent": true,
   "appIdSubstitutions": [],
