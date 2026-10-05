@@ -1,7 +1,7 @@
 {
   "currentThemeName": "dynamic",
   "currentThemeCategory": "dynamic",
-  "popupTransparency": 0.9,
+  "popupTransparency": 0.8,
   "cornerRadius": 12,
   "clockFormat": "24h",
   "showSeconds": true,
@@ -73,7 +73,7 @@
       "barLengthPadding": 0,
       "bottomGap": 0,
       "attachToScreenEdge": false,
-      "transparency": 0.9,
+      "transparency": 0.8,
       "widgetTransparency": 1,
       "squareCorners": false,
       "noBackground": false,
