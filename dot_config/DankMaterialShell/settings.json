@@ -75,7 +75,7 @@
       "bottomGap": 0,
       "attachToScreenEdge": false,
       "transparency": 0.8,
-      "widgetTransparency": 1,
+      "widgetTransparency": 0.8,
       "squareCorners": false,
       "noBackground": false,
       "maximizeWidgetIcons": false,
