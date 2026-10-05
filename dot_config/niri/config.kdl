@@ -277,7 +277,4 @@ include optional=true "dms/outputs.kdl"
 include optional=true "dms/cursor.kdl"
 include optional=true "dms/input.kdl"
 
-binds {
-    Mod+B hotkey-overlay-title="Open Firefox" { spawn "firefox"; }
-}
 include "dms/windowrules.kdl"

@@ -6,6 +6,7 @@ binds {
 
     // === Application Launchers ===
     Mod+T hotkey-overlay-title="Open Terminal" { spawn "kitty"; }
+    Mod+B hotkey-overlay-title="Open Firefox" { spawn "firefox"; }
     Mod+Space hotkey-overlay-title="Application Launcher" {
         spawn "dms" "ipc" "call" "spotlight" "toggle";
     }
