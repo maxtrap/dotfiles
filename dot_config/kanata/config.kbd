@@ -1,6 +1,7 @@
 (defcfg
   ;; Place your OS specific configurations here, see: https://github.com/jtroo/kanata
 	process-unmapped-keys no
+	log-layer-changes no
 )
 ;; The config below uses ANSI, if you are on ISO you will have to modify it.
 (defsrc
