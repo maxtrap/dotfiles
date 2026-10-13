@@ -13,6 +13,7 @@
   "spotlightSectionViewModes": {
     "apps": "list"
   },
+  "networkPreference": "wifi",
   "cursorSettings": {
     "theme": "Bibata-Modern-Classic",
     "size": 24,
