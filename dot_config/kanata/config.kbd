@@ -57,7 +57,7 @@
   tab  esc  _    bck  fwd  XX   pgup home end  bspc del  prnt slck brk
   _    lalt _    lsft lctl lmet pgdn left down up   rght ins       ret
   lsft C-z  C-x  C-c  C-v  z    k    p    '    /    menu      rsft
-  lctl lmet lalt           ret            ralt rmet rctl
+  lctl lmet lalt           spc            ralt rmet rctl
 )
 
 (deflayer symbols
