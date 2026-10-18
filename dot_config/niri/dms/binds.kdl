@@ -221,6 +221,8 @@ binds {
         spawn "dms" "ipc" "outputs" "cycleProfile";
     }
 
+		Mod+Alt+P repeat=false { spawn-sh "wl-mirror $(niri msg --json focused-output | jq -r .name)"; }
+
     // === System Controls ===
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
     Mod+Shift+P { power-off-monitors; }
