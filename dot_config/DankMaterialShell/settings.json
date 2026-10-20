@@ -160,7 +160,7 @@
         ],
         "showOnOverlay": true,
         "showOnOverview": false,
-        "syncPositionAcrossScreens": false,
+        "syncPositionAcrossScreens": true,
         "clickThrough": true
       },
       "group": null
